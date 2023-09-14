@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/bbs/save" method="post">
+
+        <div>
+            <label for="">글쓴이</label>
+            <input type="text" name="bbsWriter">
+        </div>
+
+        <div>
+            <label for="">번호</label>
+            <input type="text" name="bbsPass">
+        </div>
+
+        <div>
+            <label for="">제목</label>
+            <input type="text" name="bbsTitle">
+        </div>
+
+        <div>
+            <textarea name="bbsContents" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">작성</button>
+        </div>
+        
+    </form>
+</body>
+</html>
